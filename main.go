@@ -39,7 +39,7 @@ func main() {
 		if err != nil {
 			printError(errReadingInput)
 		}
-		if shouldConvertAgain != strings.ToUpper(strings.TrimSpace(shouldConvertAgain)) {
+		if shouldConvertAgain != strings.TrimSpace(strings.ToUpper(shouldConvertAgain)) {
 			fmt.Println("Good bye!")
 			break
 		}
